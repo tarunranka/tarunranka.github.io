@@ -1029,23 +1029,16 @@ h2{
 p{
     font-family: "RobotoDraft","Roboto",sans-serif;
 }
-.logos{
-  max-width:45%;
-}
-.logo{
-  display: inline-block;
-  zoom: 1;
-  margin-left: 0;
-  margin-right: 0;
+
+.logos img,.text-center{
   text-align: center;
-  max-width: 22%;
-  vertical-align: bottom;
 }
-.logo strong{
+.logos strong{
   font-family: "RobotoDraft","Roboto",sans-serif;
   color:#333;
   font-size: 1.115em;
   margin-top: 0.5em;
-  display: inline-block;
+  display: block;
+  text-align: center;
   text-transform:uppercase;
 }
