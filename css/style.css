@@ -1022,6 +1022,30 @@ hr {
   -webkit-font-smoothing: antialiased;
   line-height: 1em;
 }
+h2{
+  text-transform:uppercase;
+  font-family: "RobotoDraft","Roboto",sans-serif;
+}
 p{
     font-family: "RobotoDraft","Roboto",sans-serif;
+}
+.logos{
+  width:45%;
+}
+.logo{
+  display: inline-block;
+  zoom: 1;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  max-width: 22%;
+  vertical-align: bottom;
+}
+.logo strong{
+  font-family: "RobotoDraft","Roboto",sans-serif;
+  color:#333;
+  font-size: 1.115em;
+  margin-top: 0.5em;
+  display: inline-block;
+  text-transform:uppercase;
 }
