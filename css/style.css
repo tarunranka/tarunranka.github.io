@@ -1030,7 +1030,7 @@ p{
     font-family: "RobotoDraft","Roboto",sans-serif;
 }
 .logos{
-  width:45%;
+  max-width:45%;
 }
 .logo{
   display: inline-block;
