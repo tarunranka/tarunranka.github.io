@@ -1011,7 +1011,7 @@ hr {
 }
 
 .header{
-  background: #03A9F4;
+  background: #283593;
   width:100%;
   padding: 1em;
 }
@@ -1049,14 +1049,14 @@ main{
   text-transform:uppercase;
 }
 .footer-info{
-  background-color: #283593;
+  background-color: #3949AB;
   padding: 2em 0;
 }
 .footer-info p{
   color: #fff;
 }
 .footer .copyright{
-  background-color: #0D47A1;
+  background-color: #3F51B5;
   width:100%;
   padding: 1em 0;
 }
