@@ -1028,8 +1028,14 @@ h2{
 }
 p{
     font-family: "RobotoDraft","Roboto",sans-serif;
+    margin: 5px 0;
 }
-
+main{
+  margin:20px 0;
+}
+.logos{
+  margin: 10px 0;
+}
 .logos img,.text-center{
   text-align: center;
 }
@@ -1041,4 +1047,21 @@ p{
   display: block;
   text-align: center;
   text-transform:uppercase;
+}
+.footer-info{
+  background-color: #283593;
+  padding: 2em 0;
+}
+.footer-info p{
+  color: #fff;
+}
+.footer .copyright{
+  background-color: #0D47A1;
+  width:100%;
+  padding: 1em 0;
+}
+.posC{
+  font-family: "RobotoDraft","Roboto",sans-serif;
+  margin: 5px 0;
+  color: #fff;
 }
