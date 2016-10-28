@@ -39,6 +39,35 @@
 .sidebar-item a{
   color:#fff;
 }
+.sidebar-item h3{
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+.sidebar-item ul{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.sidebar .determinate {
+  background-color: #ffffff;
+}
+.sidebar .progress {
+    background-color: #4783c2;
+    height: 2px;
+    overflow: visible;
+}
+.sidebar  .determinate .fa {
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    margin-left: 50%;
+    color: #fff;
+}
 .sidebar-item .icon{
   text-align: center;
 }
