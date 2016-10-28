@@ -12,7 +12,7 @@
   right: 0;
   left: 0;
   text-align: center;
-  background: #509bd2;
+  background: #2196f3;
   padding: 10px 0 20px;
 }
 .author h1{
@@ -35,7 +35,7 @@
 .profile-page .sidebar-item {
     overflow: hidden;
     padding: 10px;
-    background-color: #5da4d9;
+    background-color: #319cf1;
     color: #fff;
 }
 .sidebar-item a{
