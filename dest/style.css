@@ -11,7 +11,8 @@
   right: 0;
   left: 0;
   text-align: center;
-  padding: 20px 0;
+  background: #00acc1;
+  padding: 10px 0 20px;
 }
 .author h1{
   font-size: 25px;
@@ -33,7 +34,7 @@
 .profile-page .sidebar-item {
     overflow: hidden;
     padding: 10px;
-    background-color: #5da4d9;
+    background-color: #00bcd4;
     color: #fff;
 }
 .sidebar-item a{
@@ -83,6 +84,9 @@
 }
 .cv_card {
     margin:0 0 20px;
+}
+.cv_card p{
+  margin:10px 10px 10px;
 }
 .cv_card .heading{
   margin-left: 12px;
