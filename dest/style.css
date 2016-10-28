@@ -111,7 +111,21 @@
 }
 
 
-@media (max-width: 600px)
+@media (max-width: 600px){
 .cv_card .date_container {
     margin-left: 0px;
+}
+.profile-page{
+  margin: 0 0 10px;
+}
+.cv_card{
+  margin: 10px 0;
+}
+}
+
+@media only screen and (max-width: 992px){
+#sidebar {
+    text-align: center;
+}
+
 }
