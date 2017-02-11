@@ -1,0 +1,196 @@
+/*About*/
+.profile-page{
+  margin: 20px 0;
+  color: #666;
+}
+.profile-img{
+  position: relative;
+  line-height: 0;
+}
+.author{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(80,155,210,0.8);
+  padding: 10px 0 20px;
+}
+.author h1{
+  font-size: 25px;
+  line-height: 1.75;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.work{
+  font-size:13px;
+  color:#fff;
+}
+
+#sidebar .row{
+  margin-bottom: 0;
+}
+.profile-page .sidebar-item {
+    overflow: hidden;
+    padding: 10px;
+    background-color: #319cf1;
+    color: #fff;
+}
+.sidebar-item a{
+  color:#fff;
+}
+.sidebar-item h3{
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+.sidebar-item ul{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.sidebar .determinate {
+  background-color: #ffffff;
+}
+.sidebar .progress {
+    background-color: #4783c2;
+    height: 2px;
+    overflow: visible;
+}
+.sidebar  .determinate .fa {
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    margin-left: 50%;
+    color: #fff;
+}
+.sidebar-item .icon{
+  text-align: center;
+}
+.info-detail .name{
+  display: block;
+}
+.info-detail p{
+    margin: 0;
+}
+
+.section-card{
+  background: #fff;
+}
+.cv_card {
+    margin:0 0 20px;
+}
+.cv_card p{
+  margin:10px 10px 10px;
+}
+.cv_card .heading{
+  margin-left: 12px;
+  color: #444;
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.cv_card .title{
+  font-size: 14px;
+}
+.cv_card .date_container {
+    margin-left: 70px;
+    padding-left: 10px;
+    font-size:12px;
+}
+.date_container .date {
+    display: block;
+    color: #999;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.fa{
+  vertical-align: middle;
+}
+.fa-map-marker{
+  margin-right: 5px;
+  vertical-align: baseline;
+}
+.round_mark {
+    border: 3px solid #CCC;
+    border-radius: 50%;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-left: -19px;
+    margin-top: 2px;
+
+}
+.round_mark:before{
+  content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #CCC;
+}
+.date_entry{
+  margin-top: 7px;
+  margin-left: 3px;
+}
+.left_border {
+    border-left: 3px solid #CCC;
+    padding-top: 10px;
+    margin-top: -3px;
+    margin-left: -12px;
+    padding-left: 12px;
+    margin-bottom: -13px;
+    padding-bottom: 13px;
+}
+
+
+.cv_card .date_container .title {
+    margin-left: 10px;
+    margin-top: -5px;
+    display: block;
+}
+.date_container .location {
+    display: block;
+    color: #999999;
+    margin-left: 20px;
+}
+
+
+@media (max-width: 600px){
+.cv_card .date_container {
+    margin-left: 0px;
+}
+.profile-page{
+  margin: 0 0 10px;
+}
+.cv_card{
+  margin: 10px 0;
+}
+}
+
+@media only screen and (max-width: 992px){
+#sidebar {
+    text-align: center;
+}
+
+}
